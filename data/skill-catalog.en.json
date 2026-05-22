@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "project": "Modern Web Guidance",
+    "checkedAt": "2026-05-22",
+    "sourceDocs": "https://developer.chrome.com/docs/modern-web-guidance",
+    "sourceRepo": "https://github.com/GoogleChrome/modern-web-guidance",
+    "sourceRepoCreatedAt": "2026-03-23T17:49:14Z",
+    "npmPackage": "modern-web-guidance",
+    "npmVersionChecked": "0.0.169",
+    "officialUseCaseCount": 128,
+    "officialFeatureCoverage": {
+      "cssAndLayout": 51,
+      "htmlAndDom": 20,
+      "javascriptAndApis": 31
+    }
+  },
+  "skillPacks": [
+    {
+      "id": "modern-web-guidance",
+      "kind": "official-skill",
+      "category": "modern-web-platform-guidance",
+      "summary": "Search and retrieve expert-curated modern web development guides for HTML, CSS, client-side JavaScript, performance, accessibility, security, privacy, passkeys, built-in AI, and WebMCP.",
+      "recommendedAgentFlow": [
+        "Search by action-oriented implementation intent.",
+        "Retrieve one or more matching guide IDs.",
+        "Adapt guide advice to the project framework and browser support policy."
+      ],
+      "guideCategories": [
+        { "id": "accessibility", "title": "Accessibility", "guideFileCount": 2 },
+        { "id": "built-in-ai", "title": "Built-in AI", "guideFileCount": 4 },
+        { "id": "css", "title": "CSS", "guideFileCount": 2 },
+        { "id": "css-layout", "title": "CSS Layout", "guideFileCount": 1 },
+        { "id": "forms", "title": "Forms and UI", "guideFileCount": 15 },
+        { "id": "html", "title": "HTML and DOM", "guideFileCount": 1 },
+        { "id": "passkeys", "title": "Passkeys", "guideFileCount": 6 },
+        { "id": "performance", "title": "Performance", "guideFileCount": 22 },
+        { "id": "privacy", "title": "Privacy", "guideFileCount": 1 },
+        { "id": "security", "title": "Security", "guideFileCount": 1 },
+        { "id": "user-experience", "title": "User Experience", "guideFileCount": 79 },
+        { "id": "webmcp", "title": "WebMCP", "guideFileCount": 3 }
+      ]
+    },
+    {
+      "id": "chrome-extensions",
+      "kind": "official-skill",
+      "category": "chrome-extension-guidance",
+      "summary": "Build and publish Chrome Extensions using Manifest V3 best practices, extension API patterns, Web Store listing guidance, review checklists, permission justifications, and privacy policy guidance.",
+      "recommendedAgentFlow": [
+        "Use this pack when the request involves Chrome extension APIs or publishing.",
+        "Check Manifest V3 constraints before generating code.",
+        "Validate real asset paths, permissions, service worker persistence, CSP, and Web Store requirements."
+      ],
+      "referenceAreas": [
+        "Manifest and extension architecture",
+        "Content scripts",
+        "Service workers",
+        "Messaging",
+        "Side panel and popup UI",
+        "Identity and permissions",
+        "Chrome Web Store publishing"
+      ],
+      "referenceFileCount": 21
+    }
+  ]
+}

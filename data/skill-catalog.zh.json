@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "project": "Modern Web Guidance 中文调研与落地包",
+    "checkedAt": "2026-05-22",
+    "sourceDocs": "https://developer.chrome.com/docs/modern-web-guidance",
+    "sourceRepo": "https://github.com/GoogleChrome/modern-web-guidance",
+    "sourceRepoCreatedAt": "2026-03-23T17:49:14Z",
+    "npmPackage": "modern-web-guidance",
+    "npmVersionChecked": "0.0.169",
+    "officialUseCaseCount": 128,
+    "officialFeatureCoverage": {
+      "cssAndLayout": 51,
+      "htmlAndDom": 20,
+      "javascriptAndApis": 31
+    }
+  },
+  "skillPacks": [
+    {
+      "id": "modern-web-guidance",
+      "kind": "官方 Skill 中文翻译版",
+      "category": "现代 Web 平台指导",
+      "summary": "为 HTML、CSS、客户端 JavaScript、性能、可访问性、安全、隐私、Passkeys、浏览器内置 AI 与 WebMCP 等场景检索并获取专家整理的现代 Web 实践指南。",
+      "recommendedAgentFlow": [
+        "先用面向动作的实现意图检索指南。",
+        "再根据命中的 guide id 拉取一个或多个完整指南。",
+        "结合项目框架与浏览器支持策略进行落地，不机械套用。"
+      ],
+      "guideCategories": [
+        { "id": "accessibility", "title": "可访问性", "guideFileCount": 2 },
+        { "id": "built-in-ai", "title": "浏览器内置 AI", "guideFileCount": 4 },
+        { "id": "css", "title": "CSS 基础能力", "guideFileCount": 2 },
+        { "id": "css-layout", "title": "CSS 布局", "guideFileCount": 1 },
+        { "id": "forms", "title": "表单与原生 UI", "guideFileCount": 15 },
+        { "id": "html", "title": "HTML 与 DOM", "guideFileCount": 1 },
+        { "id": "passkeys", "title": "通行密钥", "guideFileCount": 6 },
+        { "id": "performance", "title": "性能优化", "guideFileCount": 22 },
+        { "id": "privacy", "title": "隐私保护", "guideFileCount": 1 },
+        { "id": "security", "title": "安全", "guideFileCount": 1 },
+        { "id": "user-experience", "title": "用户体验", "guideFileCount": 79 },
+        { "id": "webmcp", "title": "WebMCP 与 Agentic Web", "guideFileCount": 3 }
+      ]
+    },
+    {
+      "id": "chrome-extensions",
+      "kind": "官方 Skill 中文翻译版",
+      "category": "Chrome 扩展开发指导",
+      "summary": "围绕 Manifest V3、扩展 API、内容脚本、扩展服务工作线程、消息通信、侧边栏/弹窗、权限、Web Store 上架与隐私政策，帮助 Agent 生成可运行、可审核的 Chrome 扩展。",
+      "recommendedAgentFlow": [
+        "当需求涉及 Chrome 扩展 API、浏览器扩展或上架发布时使用。",
+        "生成代码前先检查 Manifest V3 约束。",
+        "重点验证真实资源路径、权限、服务工作线程持久化、CSP 与商店审核要求。"
+      ],
+      "referenceAreas": [
+        "Manifest 与扩展架构",
+        "内容脚本",
+        "服务工作线程",
+        "消息通信",
+        "侧边栏与弹窗 UI",
+        "身份认证与权限",
+        "Chrome Web Store 发布"
+      ],
+      "referenceFileCount": 21
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "modern-web-guidance-research-cn",
+  "version": "0.1.0",
+  "description": "Chinese research, translation, testing, and adoption guide for GoogleChrome Modern Web Guidance agent skills.",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "test": "node tests/verify_structure.mjs",
+    "mwg:search": "npx -y modern-web-guidance@latest search",
+    "mwg:list": "npx -y modern-web-guidance@latest list",
+    "mwg:retrieve": "npx -y modern-web-guidance@latest retrieve"
+  },
+  "keywords": [
+    "modern-web-guidance",
+    "agent-skills",
+    "chrome",
+    "frontend",
+    "web-platform",
+    "chinese"
+  ],
+  "license": "Apache-2.0"
+}

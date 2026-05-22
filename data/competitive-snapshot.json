@@ -1,0 +1,116 @@
+{
+  "checkedAt": "2026-05-22",
+  "method": "GitHub API via gh CLI plus public web search for documentation and forum signals",
+  "repositories": [
+    {
+      "nameWithOwner": "GoogleChrome/modern-web-guidance",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "description": "Chrome/Web platform modern frontend guidance",
+      "stars": 539,
+      "forks": 13,
+      "createdAt": "2026-03-23T17:49:14Z",
+      "updatedAt": "2026-05-22T01:57:36Z",
+      "license": "Apache-2.0"
+    },
+    {
+      "nameWithOwner": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "Source and feedback repository for Modern Web Guidance",
+      "stars": 255,
+      "forks": 14,
+      "createdAt": "2026-01-27T20:22:24Z",
+      "updatedAt": "2026-05-22T02:06:48Z",
+      "license": "Apache-2.0"
+    },
+    {
+      "nameWithOwner": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "stars": 138878,
+      "forks": 16386,
+      "createdAt": "2025-09-22T15:53:31Z",
+      "updatedAt": "2026-05-22T02:12:21Z",
+      "license": null
+    },
+    {
+      "nameWithOwner": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "Agentic skills framework and software development methodology",
+      "stars": 201608,
+      "forks": 17961,
+      "createdAt": "2025-10-09T19:45:18Z",
+      "updatedAt": "2026-05-22T02:13:52Z",
+      "license": "MIT"
+    },
+    {
+      "nameWithOwner": "vercel-labs/agent-skills",
+      "url": "https://github.com/vercel-labs/agent-skills",
+      "description": "Vercel's official collection of agent skills",
+      "stars": 26923,
+      "forks": 2446,
+      "createdAt": "2025-12-08T19:10:06Z",
+      "updatedAt": "2026-05-22T00:23:37Z",
+      "license": null
+    },
+    {
+      "nameWithOwner": "vercel-labs/skills",
+      "url": "https://github.com/vercel-labs/skills",
+      "description": "The open agent skills tool - npx skills",
+      "stars": 19573,
+      "forks": 1576,
+      "createdAt": "2026-01-14T21:31:18Z",
+      "updatedAt": "2026-05-22T02:02:24Z",
+      "license": null
+    },
+    {
+      "nameWithOwner": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents",
+      "stars": 44618,
+      "forks": 4927,
+      "createdAt": "2026-02-15T20:20:26Z",
+      "updatedAt": "2026-05-22T02:11:14Z",
+      "license": "MIT"
+    },
+    {
+      "nameWithOwner": "github/awesome-copilot",
+      "url": "https://github.com/github/awesome-copilot",
+      "description": "Community-contributed instructions, agents, skills, and configurations for GitHub Copilot",
+      "stars": 33567,
+      "forks": 4082,
+      "createdAt": "2025-06-11T16:57:39Z",
+      "updatedAt": "2026-05-22T01:49:35Z",
+      "license": "MIT"
+    },
+    {
+      "nameWithOwner": "agentskills/agentskills",
+      "url": "https://github.com/agentskills/agentskills",
+      "description": "Specification and documentation for Agent Skills",
+      "stars": 19102,
+      "forks": 1168,
+      "createdAt": "2025-12-16T15:47:19Z",
+      "updatedAt": "2026-05-22T02:09:26Z",
+      "license": "Apache-2.0"
+    },
+    {
+      "nameWithOwner": "google/skills",
+      "url": "https://github.com/google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "stars": 10253,
+      "forks": 789,
+      "createdAt": "2026-03-31T19:02:20Z",
+      "updatedAt": "2026-05-22T01:27:57Z",
+      "license": "Apache-2.0"
+    },
+    {
+      "nameWithOwner": "WordPress/agent-skills",
+      "url": "https://github.com/WordPress/agent-skills",
+      "description": "Expert-level WordPress knowledge for AI coding assistants",
+      "stars": 1526,
+      "forks": 213,
+      "createdAt": "2026-01-20T01:21:50Z",
+      "updatedAt": "2026-05-21T20:22:10Z",
+      "license": "Other"
+    }
+  ]
+}
